@@ -73,8 +73,3 @@ The SCSS files are modular and follow a structured approach:
 
 **Juliana García Corredor**  
 [@JuliGeralDev](https://github.com/JuliGeralDev)
-
-
-## 📄 License
-
-This project is licensed under the **ISC License**.
