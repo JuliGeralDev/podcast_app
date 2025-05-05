@@ -2,6 +2,9 @@
 
 **Podcast App** is a *study project* developed as part of a Udemy course by Juan Pablo De la Torre Valdez. It is designed as a landing page prototype to demonstrate my skills in web design using **SASS**, **CSS Grid**, and **Flexbox**. This is not a functional application, but a design-focused exercise to showcase responsive layouts and front-end architecture. The project also integrates **Gulp** for task automation.
 
+## 🔗 Live Preview
+
+[👉 View the Demo on Netlify](https://podcast-app-dev.netlify.app/)
 
 ## 📁 Project Structure
 
