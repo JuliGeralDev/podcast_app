@@ -32,14 +32,22 @@ function versionWebp() {
         .pipe(dest('build/img'));
 }
 
+function html() {
+    return src('index.html')
+        .pipe(dest('build'));
+}
+
 function dev() {
     watch('src/scss/**/*.scss', css);
     watch('src/img/**/*', imagenes);
+    watch('index.html', html);
 }
+
 
 exports.css = css;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
+exports.html = html;
 exports.dev = dev;
-exports.default = series(imagenes, versionWebp, css, dev);
-exports.build = series(imagenes, versionWebp, css);
+exports.default = series(imagenes, versionWebp, css, html, dev);
+exports.build = series(imagenes, versionWebp, css, html);
