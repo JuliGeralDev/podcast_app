@@ -1,12 +1,12 @@
 {
-  "name": "cafeteria",
+  "name": "Podcast App",
   "version": "1.0.0",
   "description": "Podcast App. CSS Grid, Flexbox, Gulp, SASS",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
-  "author": "Juan De la torre @codigoconjuan",
+  "author": "Juliana García Corredor @JuliGeralDev",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
